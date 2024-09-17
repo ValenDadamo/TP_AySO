@@ -1,83 +1,209 @@
-nano README.md
-  - Abre el archivo README.md en el editor de texto nano para editarlo.
+1. nano README.md
+   - Abre el archivo README.md en el editor de texto nano para editarlo.
 
-cat README.md
-  - Muestra el contenido del archivo README.md en la terminal.
+2. cat README.md
+   - Muestra el contenido del archivo README.md en la terminal.
 
-git status
-  - Muestra el estado actual del repositorio, incluyendo archivos modificados y no rastreados.
+3. git status
+   - Muestra el estado actual del repositorio, incluyendo archivos modificados y no rastreados.
 
-git add README.md
-  - Agrega el archivo README.md al área de preparación para el próximo commit.
+4. git add README.md
+   - Agrega el archivo README.md al área de preparación para el próximo commit.
 
-git commit -m "Actualizar información del alumno en README.md"
-  - Crea un nuevo commit con los cambios en README.md y un mensaje descriptivo.
+5. git commit -m "Actualizar información del alumno en README.md"
+   - Crea un nuevo commit con los cambios en README.md y un mensaje descriptivo.
 
-git push origin main
-  - Envía los commits locales a la rama 'main' en el repositorio remoto.
+6. git push origin main
+   - Envía los commits locales a la rama 'main' en el repositorio remoto.
 
-git log
-  - Muestra el historial de commits en el repositorio.
+7. git log
+   - Muestra el historial de commits en el repositorio.
 
-git branch
-  - Muestra una lista de las ramas en el repositorio y resalta la rama actual.
+8. git branch
+   - Muestra una lista de las ramas en el repositorio y resalta la rama actual.
 
-git clone <url>
-  - Clona un repositorio remoto en tu máquina local.
+9. git clone <url>
+   - Clona un repositorio remoto en tu máquina local.
 
-git config --global user.name "Tu Nombre"
-  - Configura tu nombre de usuario para los commits de Git.
+10. git config --global user.name "Tu Nombre"
+    - Configura tu nombre de usuario para los commits de Git.
 
-git config --global user.email "tu_email@example.com"
-  - Configura tu dirección de correo electrónico para los commits de Git.
+11. git config --global user.email "tu_email@example.com"
+    - Configura tu dirección de correo electrónico para los commits de Git.
 
-ls
-  - Lista los archivos y directorios en el directorio actual.
+12. ls
+    - Lista los archivos y directorios en el directorio actual.
 
-cd <directorio>
-  - Cambia al directorio especificado.
+13. cd <directorio>
+    - Cambia al directorio especificado.
 
-pwd
-  - Muestra la ruta del directorio actual.
+14. pwd
+    - Muestra la ruta del directorio actual.
 
-clear
-  - Limpia la pantalla de la terminal.
+15. clear
+    - Limpia la pantalla de la terminal.
 
-mkdir <nombre_directorio>
-  - Crea un nuevo directorio con el nombre especificado.
+16. mkdir <nombre_directorio>
+    - Crea un nuevo directorio con el nombre especificado.
 
-rm <archivo>
-  - Elimina el archivo especificado.
+17. rm <archivo>
+    - Elimina el archivo especificado.
 
-rmdir <nombre_directorio>
-  - Elimina un directorio vacío.
+18. rmdir <nombre_directorio>
+    - Elimina un directorio vacío.
 
-mv <origen> <destino>
-  - Mueve o renombra un archivo o directorio.
+19. mv <origen> <destino>
+    - Mueve o renombra un archivo o directorio.
 
-cp <origen> <destino>
-  - Copia un archivo o directorio al destino especificado.
+20. cp <origen> <destino>
+    - Copia un archivo o directorio al destino especificado.
 
-echo "texto" > archivo.txt
-  - Crea un archivo llamado archivo.txt y escribe "texto" en él.
+21. echo "texto" > archivo.txt
+    - Crea un archivo llamado archivo.txt y escribe "texto" en él.
 
-grep "texto" archivo.txt
-  - Busca "texto" dentro del archivo.txt y muestra las líneas que lo contienen.
+22. grep "texto" archivo.txt
+    - Busca "texto" dentro del archivo.txt y muestra las líneas que lo contienen.
 
-history
-  - Muestra el historial de comandos utilizados en la terminal.
+23. history
+    - Muestra el historial de comandos utilizados en la terminal.
 
-exit
-  - Cierra la terminal o la sesión actual.
+24. exit
+    - Cierra la terminal o la sesión actual.
 
-touch <archivo>
-  - Crea un nuevo archivo vacío con el nombre especificado.
+25. touch <archivo>
+    - Crea un nuevo archivo vacío con el nombre especificado.
 
-find <directorio> -name <nombre_archivo>
-  - Busca un archivo específico en el directorio y sus subdirectorios.
+26. find <directorio> -name <nombre_archivo>
+    - Busca un archivo específico en el directorio y sus subdirectorios.
 
-history | grep <texto>
-  - Filtra el historial de comandos para mostrar solo aquellos que contienen el texto especificado.
+27. history | grep <texto>
+    - Filtra el historial de comandos para mostrar solo aquellos que contienen el texto especificado.
 
-history | grep -v <texto>
-  - Filtra el historial de comandos para mostrar solo aquellos que NO contienen el texto especificado.
+28. history | grep -v <texto>
+    - Filtra el historial de comandos para mostrar solo aquellos que NO contienen el texto especificado.
+
+29. pwd
+    - Muestra la ruta del directorio actual.
+
+30. cd /tmp
+    - Cambia al directorio `/tmp`.
+
+31. cd ~
+    - Cambia al directorio home del usuario.
+
+32. ls -la
+    - Lista todos los archivos y directorios, incluyendo los ocultos, en el directorio actual.
+
+33. ls -l
+    - Lista los archivos y directorios en el directorio actual con detalles.
+
+34. ls -la .ssh/
+    - Lista todos los archivos en el directorio `.ssh` con detalles.
+
+35. ssh-keygen --help
+    - Muestra la ayuda para el comando `ssh-keygen`.
+
+36. ssh-keygen -t ed25519
+    - Genera una nueva clave SSH usando el algoritmo Ed25519.
+
+37. ssh
+    - Inicia una sesión SSH.
+
+38. cat .ssh/id_ed25519.pub
+    - Muestra el contenido de la clave pública SSH.
+
+39. cd repogit/
+    - Cambia al directorio `repogit`.
+
+40. git clone git@github.com:ValenDadamo/TP_AySO.git
+    - Clona el repositorio `TP_AySO` desde GitHub.
+
+41. git add .
+    - Agrega todos los cambios al área de preparación.
+
+42. git commit -m "add: primer commit"
+    - Crea un nuevo commit con los cambios y el mensaje especificado.
+
+43. git config --global user.email "valentindadamo@gmail.com"
+    - Configura el correo electrónico global para los commits de Git.
+
+44. git config --global user.name "ValenDadamo"
+    - Configura el nombre de usuario global para los commits de Git.
+
+45. git push
+    - Envía los commits locales al repositorio remoto.
+
+46. cp .bash_history carpeta_compartida/historial.txt
+    - Copia el historial de comandos a un nuevo archivo en `carpeta_compartida`.
+
+47. mkdir /tmp/pepe
+    - Crea un nuevo directorio llamado `pepe` en `/tmp`.
+
+48. ls /tmp/pepe
+    - Lista los archivos en el directorio `/tmp/pepe`.
+
+49. sudo mount /tmp/pepe
+    - Monta el directorio `pepe` en `/tmp` (requiere permisos de superusuario).
+
+50. cd TP_AySO/
+    - Cambia al directorio `TP_AySO`.
+
+51. grep "model name" /proc/cpuinfo | head -n1
+    - Muestra el nombre del modelo de la CPU.
+
+52. grep -v "nologin" /etc/passwd | head -n10
+    - Muestra las primeras 10 líneas del archivo `/etc/passwd` que no contienen "nologin".
+
+53. grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+    - Muestra las primeras 10 líneas del archivo `/etc/passwd` que no contienen "nologin", ordenadas por el séptimo campo.
+
+54. echo "El comando que se usa para realizar es tcpdump." > comando_dump_net
+    - Crea un archivo `comando_dump_net` con la descripción del comando `tcpdump`.
+
+55. history > historial_comandos.txt
+    - Guarda el historial de comandos en un archivo `historial_comandos.txt`.
+
+56. history -a
+    - Agrega el historial de comandos actuales al archivo `.bash_history`.
+
+57. git rm archivo
+    - Elimina el archivo `archivo` del repositorio.
+
+58. git commit -m "Correciones de nombres y archivos"
+    - Crea un nuevo commit con los cambios y el mensaje especificado.
+
+59. git push origin main
+    - Envía los commits locales a la rama 'main' en el repositorio remoto.
+
+60. cat datos_usuario_backup.txt
+    - Muestra el contenido del archivo `datos_usuario_backup.txt`.
+
+61. cat lista_ordenada
+    - Muestra el contenido del archivo `lista_ordenada`.
+
+62. git add lista_ordenada
+    - Agrega el archivo `lista_ordenada` al área de preparación.
+
+63. git commit -m "ADD: Listado de usuarios ordenada"
+    - Crea un nuevo commit con los cambios y el mensaje especificado.
+
+64. rm -r lista_ordenada
+    - Elimina el archivo `lista_ordenada`.
+
+65. mv datos_usuario.tx datos_usuario_backup.txt
+    - Renombra `datos_usuario.tx` a `datos_usuario_backup.txt`.
+
+66. git add .
+    - Agrega todos los cambios al área de preparación.
+
+67. git commit -m "docs: Informacion de alumno, division y turno al README.md"
+    - Crea un nuevo commit con los cambios y el mensaje especificado.
+
+68. git push
+    - Envía los commits locales al repositorio remoto.
+
+69. cat comando_dump_net
+    - Muestra el contenido del archivo `comando_dump_net`.
+
+70. git push origin main
+    - Envía los commits locales a la rama 'main' en el repositorio remoto.
