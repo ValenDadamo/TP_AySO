@@ -207,3 +207,6 @@
 
 70. git push origin main
     - Envía los commits locales a la rama 'main' en el repositorio remoto.
+
+71. EOF
+    - Indica el final de un archivo o entrada en ciertas operaciones de redirección.
