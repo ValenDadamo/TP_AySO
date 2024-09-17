@@ -1,5 +1,5 @@
 # TP_AySO
-Alumno: <Valentin D'Adamo>
+Alumno: <ValentinDadamo>
 División: <318>
 Turno: <Noche>
 
