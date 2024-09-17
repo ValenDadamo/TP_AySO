@@ -2,4 +2,3 @@
 Alumno: <ValentinDadamo>
 División: <318>
 Turno: <Noche>
-

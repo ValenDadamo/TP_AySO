@@ -1,1 +1,83 @@
-hola
+nano README.md
+  - Abre el archivo README.md en el editor de texto nano para editarlo.
+
+cat README.md
+  - Muestra el contenido del archivo README.md en la terminal.
+
+git status
+  - Muestra el estado actual del repositorio, incluyendo archivos modificados y no rastreados.
+
+git add README.md
+  - Agrega el archivo README.md al área de preparación para el próximo commit.
+
+git commit -m "Actualizar información del alumno en README.md"
+  - Crea un nuevo commit con los cambios en README.md y un mensaje descriptivo.
+
+git push origin main
+  - Envía los commits locales a la rama 'main' en el repositorio remoto.
+
+git log
+  - Muestra el historial de commits en el repositorio.
+
+git branch
+  - Muestra una lista de las ramas en el repositorio y resalta la rama actual.
+
+git clone <url>
+  - Clona un repositorio remoto en tu máquina local.
+
+git config --global user.name "Tu Nombre"
+  - Configura tu nombre de usuario para los commits de Git.
+
+git config --global user.email "tu_email@example.com"
+  - Configura tu dirección de correo electrónico para los commits de Git.
+
+ls
+  - Lista los archivos y directorios en el directorio actual.
+
+cd <directorio>
+  - Cambia al directorio especificado.
+
+pwd
+  - Muestra la ruta del directorio actual.
+
+clear
+  - Limpia la pantalla de la terminal.
+
+mkdir <nombre_directorio>
+  - Crea un nuevo directorio con el nombre especificado.
+
+rm <archivo>
+  - Elimina el archivo especificado.
+
+rmdir <nombre_directorio>
+  - Elimina un directorio vacío.
+
+mv <origen> <destino>
+  - Mueve o renombra un archivo o directorio.
+
+cp <origen> <destino>
+  - Copia un archivo o directorio al destino especificado.
+
+echo "texto" > archivo.txt
+  - Crea un archivo llamado archivo.txt y escribe "texto" en él.
+
+grep "texto" archivo.txt
+  - Busca "texto" dentro del archivo.txt y muestra las líneas que lo contienen.
+
+history
+  - Muestra el historial de comandos utilizados en la terminal.
+
+exit
+  - Cierra la terminal o la sesión actual.
+
+touch <archivo>
+  - Crea un nuevo archivo vacío con el nombre especificado.
+
+find <directorio> -name <nombre_archivo>
+  - Busca un archivo específico en el directorio y sus subdirectorios.
+
+history | grep <texto>
+  - Filtra el historial de comandos para mostrar solo aquellos que contienen el texto especificado.
+
+history | grep -v <texto>
+  - Filtra el historial de comandos para mostrar solo aquellos que NO contienen el texto especificado.
