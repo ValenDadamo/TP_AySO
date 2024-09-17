@@ -1,2 +1,32 @@
-tcpdump
--w (archivo): Guarda la captura en un archivo para ser analizada más tarde.
+tcpdump -i <interfaz>
+  - Captura paquetes en la interfaz de red especificada.
+
+tcpdump -i <interfaz> -c <n>
+  - Captura solo n paquetes en la interfaz especificada.
+
+tcpdump -i <interfaz> -w <archivo>
+  - Guarda la captura de paquetes en un archivoGuarda la captura de paquetes en un archivo.
+
+tcpdump -r <archivo>
+  - Lee y muestra el contenido de un archivo previamente guardado.
+
+tcpdump -i <interfaz> host <ip>
+  - Captura paquetes de o hacia una dirección IP específica.
+
+tcpdump -i <interfaz> port <puerto>
+  - Captura paquetes en un puerto específico.
+
+tcpdump -i <interfaz> -n
+  - Muestra direcciones IP en lugar de intentar resolver nombres de host.
+
+tcpdump -i <interfaz> -A
+  - Muestra el contenido de los paquetes en formato ASCII.
+
+tcpdump -i <interfaz> -s 0
+  - Captura el paquete completo (sin truncar) en la interfaz especificada.
+
+tcpdump -i <interfaz> -v
+  - Muestra información detallada sobre los paquetes capturados.
+
+tcpdump -i <interfaz> -e
+  - Muestra la cabecera de enlace de los paquetes capturados.
